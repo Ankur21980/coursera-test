@@ -1,0 +1,66 @@
+*{
+  box-sizing: border-box;;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+ }
+
+#header-nav {
+  background-color: blue;
+}
+.navbar-heading h1 { 
+  color: #ffffff;
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  line-height: .75;
+  text-align: left;
+}
+
+.content {
+    background-color: yellow;
+    padding: 4px;
+    position: relative;
+    float: left;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+
+.chicken,.beef, .shushi{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+#collapsable-nav {
+  text-align: center;
+}
+
+br {
+  background-color: #ffffff;
+  border: 1px solid white;
+}
+
+
+@media(max-width: 767px) {
+  .navbar-heading h1 { 
+  color: #ffffff;
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  line-height: .75;
+  text-align: left;
+  margin-left: 20px;
+  }
+  
+  #collapsable-nav {
+    background-color: #0fff00;
+  }
+}
